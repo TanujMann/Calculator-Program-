@@ -1,0 +1,15 @@
+class Calc:
+    def __init__(self,a,b):
+        self.a=a
+        self.b=b
+    def add(self):
+        c=self.a+self.b
+        print(c)
+    def sub(self):
+        d=self.a-self.b
+        print(d)
+n1=int(input("n1: "))
+n2=int(input("n2: "))
+cal=Calc(n1,n2)
+cal.add()
+cal.sub()
